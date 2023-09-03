@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgba(255, 228, 196, 0.11);
+}
+header > div h1{
+    margin-left: 19%;
+    padding: 10px;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header> div p{
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 3px;
+    width: 500px;
+}
+div#foto{
+    text-align: center;
+}
+div#foto img{
+    padding-top: 50px;
+    position: relative;
+    max-width:1000px;
+    max-height:400px;
+    width: auto;
+    height:auto;
+    
+}
+h1#ing{
+    margin-left: 17%;
+    padding: 40px;
+}
+div#ingredients{
+    margin-left: 20%;
+}
+
+h2#h2div{
+    color:rgba(0, 0, 0, 0.753);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+h2#h2div2{
+    color:rgba(0, 0, 0, 0.753);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+div#ingredients2{
+    margin-left: 20%;
+}
+h2#fimh2{
+    color:rgba(0, 0, 0, 0.753);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+div#ingredients3{
+    text-align: justify;
+    margin-left: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#direito{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height:600px;
+    text-align: center;
+    left:74%;
+    top: 60%;
+    transform: translate(-50% ,-30%);
+}
+
+div#direito p > span#garfo{
+    width:200px;
+    color:rgb(248, 99, 0);
+}
+div#direito > h2#cu{
+    color:rgb(248, 99, 0);
+
+}
